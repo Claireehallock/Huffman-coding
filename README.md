@@ -1,5 +1,6 @@
 # Huffman-coding
 First compile, then
+
 To run the Main use: java Main.java sourceFile compressedFile targetFile
 
 #### Where:
