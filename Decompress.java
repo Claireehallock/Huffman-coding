@@ -81,7 +81,8 @@ public class Decompress {
 		}
 		
 		//Add last character
-		sb.append(current.element);
+		//sb.append(current.element);
+		//Last character is now set to "End of text" character to delineate where the code stops, so should nont be added to the decompress
 		
 		decodedText = sb.toString();
 		return decodedText;

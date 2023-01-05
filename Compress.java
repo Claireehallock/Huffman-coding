@@ -28,6 +28,8 @@ public class Compress {
 			}
 			inStream.close();
 
+			fileText += (char)(003);
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

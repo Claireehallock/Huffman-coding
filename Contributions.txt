@@ -1,4 +1,4 @@
 Overall contributions:
-David Vu: created the EncodingTreeNode class, helped lay out what methods should be used, and wrote and bugfixed some methods for many other sections of thet code
+David Vu: created the EncodingTreeNode class, helped lay out what methods should be used, and wrote and bugfixed some methods for many other sections of the code
 Claire Hallock: Wrote much of the code for the compression as well as anything that used input/output streams
 Abdurrahman Kazi: Wrote much of the code for the decompressing as well as all of the code that interacted with the command line

@@ -4,14 +4,14 @@ public class Main {
   public static void main(String[] args) {
 		
     if (args.length != 3) {
-		 	System.out.println("Usage: java Main.java sourceFile targetFile");
+		 	System.out.println("Usage: java Main.java sourceFile compressedFile targetFile");
 		 	System.exit(1);
 		 }
     
 
 		String sourceFileName = args[0];//source.txt
-    String compressedFileName = args[1];//compressedFile.txt
-    String targetFileName = args[2];//target.txt
+    	String compressedFileName = args[1];//compressedFile.txt
+    	String targetFileName = args[2];//target.txt
 
         Compress compressor = new Compress();
 		compressor.compressFile(sourceFileName, compressedFileName); 
